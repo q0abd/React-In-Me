@@ -6,7 +6,9 @@ import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App title="Osmondagi bolalar"/>
+    <App title="WebBrainAcademy"/>
+    <App title="IT"/>
   </React.StrictMode>,
   document.getElementById('root')
 );
