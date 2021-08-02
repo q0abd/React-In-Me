@@ -9,6 +9,7 @@ ReactDOM.render(
     <App title="Osmondagi bolalar"/>
     <App title="WebBrainAcademy"/>
     <App title="IT"/>
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );
