@@ -48,15 +48,15 @@ class Sidebar extends React.Component {
           <h1>Settings</h1>
         </div>
         <div className="races">Scheduled Racers</div>
-        <div className="circle">
+        <div className="circle wery">
           <img className="rasm1" src={Rasmm} alt="rasm" />
           <div className="kolso">MotoGP 2021</div>
         </div>
-        <div className="circle">
+        <div className="circle wert">
           <img className="rasm1" src={Rasmm1} alt="rasm" />
           <div className="kolso">Dynamics 22</div>
         </div>
-        <div className="circle">
+        <div className="circle werf">
           <img className="rasm1" src={Rasmm2} alt="rasm" />
           <div className="kolso">Olympics</div>
         </div>
