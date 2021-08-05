@@ -1,0 +1,150 @@
+.card1 {
+  font-family: Google Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+  margin-top: 15px;
+  color: #bcbdc2;
+}
+.cards {
+  display: flex;
+  margin-left: 60px;
+  margin-right: auto;
+  margin-top: 40px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 82px;
+  left: 1053px;
+  top: 144px;
+
+  /* cards bg */
+
+  background: #fefeff;
+  box-shadow: 0px 100px 80px rgba(41, 72, 152, 0.05),
+    0px 64.8148px 46.8519px rgba(41, 72, 152, 0.037963),
+    0px 38.5185px 25.4815px rgba(41, 72, 152, 0.0303704),
+    0px 20px 13px rgba(41, 72, 152, 0.025),
+    0px 8.14815px 6.51852px rgba(41, 72, 152, 0.0196296),
+    0px 1.85185px 3.14815px rgba(41, 72, 152, 0.012037);
+  border-radius: 10px;
+  margin-left: 75px;
+  margin-top: 1px;
+}
+.pulsCard {
+  width: 40px;
+  height: 40px;
+
+  /* cards bg */
+
+  background: #fefeff;
+  box-shadow: 0px 100px 80px rgba(41, 72, 152, 0.05),
+    0px 64.8148px 46.8519px rgba(41, 72, 152, 0.037963),
+    0px 38.5185px 25.4815px rgba(41, 72, 152, 0.0303704),
+    0px 20px 13px rgba(41, 72, 152, 0.025),
+    0px 8.14815px 6.51852px rgba(41, 72, 152, 0.0196296),
+    0px 1.85185px 3.14815px rgba(41, 72, 152, 0.012037);
+  border-radius: 10px;
+}
+.box-car {
+  display: flex;
+  align-items: center;
+  margin-left: 130px;
+}
+.older {
+  display: flex;
+  margin-top: 70px;
+  align-items: flex-start ;
+  /* justify-content: flex-start; */
+}
+.car {
+  font-family: Gilroy-Light;
+  font-size: 48px;
+  line-height: 56px;
+  display: flex;
+  color: #000000;
+}
+.car2 {
+  font-family: Gilroy-Medium;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  color: #000000;
+}
+.pulsCard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cardPuls {
+  margin-left: 130px;
+  display: flex;
+}
+.bir {
+  display: flex;
+  flex-direction: column;
+}
+.safec {
+  margin-bottom: -8px;
+  font-family: Google Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22.6885px;
+  line-height: 29px;
+
+  /* color 3 */
+
+  color: #1d2c3c;
+}
+.safec1 {
+  font-family: Google Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17.0164px;
+  line-height: 22px;
+
+  /* color 2 */
+
+  color: #9ba6b2;
+}
+.round1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(241, 15, 15, 0.3);
+  border-radius: 50px;
+  width: 45px;
+  height: 45px;
+}
+.round{
+  background: rgba(150, 137, 137, 0.3);
+  border-radius: 50px;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bir{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 20px  ;
+}
+.league{
+  display: flex;
+  flex-direction: row;  
+}
+.sana{
+  margin-left: 20px;
+}
+.box-menu{
+  margin-left: 70px;
+}
