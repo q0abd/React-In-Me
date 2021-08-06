@@ -11,8 +11,8 @@
   height: 35px;
   /* justify-content: center;/ */
 }
-.input:hover{
-  cursor:text;
+.input:hover {
+  cursor: text;
 }
 .input2 {
   display: flex;
@@ -27,41 +27,55 @@
   margin-left: 50px;
   height: 35px;
 }
-.input2:hover{
-  cursor:text;
+.input2:hover {
+  cursor: text;
 }
-.obshiy-input{
-    display: flex;
+.obshiy-input {
+  display: flex;
 }
-.navbar{
-    display: flex;
-    border-bottom: 2px solid #d8d7d7;
-    padding-bottom: 20px;
-    border-radius: 10px;
+.navbar {
+  display: flex;
+  border-bottom: 2px solid #d8d7d7;
+  padding-bottom: 20px;
+  border-radius: 10px;
 }
-.a{
-    width: 20px;
-    height: 20px;
-    margin-right: 45px;
-    transition: all 0.3s linear;
-    /* border: 1px solid red; */
+.search {
+  width: 15.75px;
+  height: 15.75px;
+  left: 2px;
+  top: 2px;
+  margin: 5px 15px;
+  color: rgba(161, 161, 161, 0.4);
 }
-.a:hover{
+.a {
+  width: 20px;
+  height: 20px;
+  margin-right: 45px;
+  transition: all 0.3s linear;
+  /* border: 1px solid red; */
+}
+.a:hover {
   cursor: pointer;
   transform: rotate(360deg);
-  border-bottom: 4px solid rgb(0, 255, 21) ;
+  border-bottom: 4px solid rgb(0, 255, 21);
 }
-.odam{
+.odam {
   transition: all 0.3s linear;
 }
-.odam:hover{
+.odam:hover {
   cursor: pointer;
   transform: rotate(360deg);
-  border-bottom: 4px solid rgb(0, 255, 21) ;
+  border-bottom: 4px solid rgb(0, 255, 21);
 }
-.iconsintheright{
-    display: flex;
-    align-items: center;
-    margin-top: 16px;
-    margin-left: 85px;
+.iconsintheright {
+  display: flex;
+  align-items: center;
+  margin-top: 16px;
+  margin-left: 85px;
+}
+.car-word{
+  margin: 5px 15px;
+}
+.past{
+  margin-left:190px;
 }

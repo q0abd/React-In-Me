@@ -1,7 +1,7 @@
 import React from "react";
 import "./navbar.css";
-import Qidiruv from "./navbar-img/person.png";
-import Past from "./navbar-img/downicon.png";
+import Qidiruv from "./navbar-img/Union.png";
+import Past from "./bottom.png";
 import Qongiroq from "./navbar-img/notification.png";
 import Account from "./navbar-img/person.png";
 import Odam from "./navbar-img/Ellipse3.png";
@@ -12,12 +12,12 @@ class Navbar extends React.Component {
       <div className="navbar">
         <div className="obshiy-input">
           <div className="input">
-            <img className="search" scr={Qidiruv} alt="search" />
+            <img className="search" src={Qidiruv} alt="rasm" />
             <h1 className="seach-word">Search for a race, car or racer</h1>
           </div>
           <div className="input2">
             <h1 className="car-word">Choose a car</h1>
-            <img className="bottom-car" scr={Past} alt="bottom" />
+            <img className="past" src={Past} alt="rasm" />
           </div>
         </div>
         <div className="iconsintheright">
@@ -31,5 +31,3 @@ class Navbar extends React.Component {
 }
 
 export default Navbar;
-
-

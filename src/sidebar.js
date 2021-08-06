@@ -7,11 +7,11 @@ import Rasm4 from "./img/Union12.png";
 import Rasm5 from "./img/group.png";
 import Rasm6 from "./img/calculator.png";
 import Rasm7 from "./img/settings.png";
-import Rasmm from "./img/Ellipse6.png"
-import Rasmm1 from "./img/Ellipse7.png"
-import Rasmm2 from "./img/Ellipse8.png"
-import Profile from "./img/profile.png"
-
+import Rasmm from "./img/Ellipse6.png";
+import Rasmm1 from "./img/Ellipse7.png";
+import Rasmm2 from "./img/Ellipse8.png";
+import Odamcha from "./navbar-img/Ellipse3.png";
+import BottomIcon from './bottom.png'
 class Sidebar extends React.Component {
   constructor(props) {
     super(props);
@@ -60,8 +60,10 @@ class Sidebar extends React.Component {
           <img className="rasm1" src={Rasmm2} alt="rasm" />
           <div className="kolso">Olympics</div>
         </div>
-        <div className="devona">
-            <img className="devonasi" scr={Profile} alt="Mujik"/>
+        <div className="odamchalar">
+        <img className="odamcha" src={Odamcha} alt="rasm" />
+        <h1 className="profName">Killua</h1>
+        <img className="bottomIcon" src={BottomIcon} alt="rasm" />
         </div>
       </div>
     );

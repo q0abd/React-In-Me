@@ -23,7 +23,7 @@
   height: 82px;
   left: 1053px;
   top: 144px;
-transition:all 0.2s linear;
+  transition: all 0.2s linear;
   /* cards bg */
 
   background: #fefeff;
@@ -37,7 +37,7 @@ transition:all 0.2s linear;
   margin-left: 75px;
   margin-top: 1px;
 }
-.card:hover{
+.card:hover {
   width: 80px;
   height: 82px;
   box-shadow: 5px 5px 35px aqua;
@@ -57,15 +57,31 @@ transition:all 0.2s linear;
     0px 1.85185px 3.14815px rgba(41, 72, 152, 0.012037);
   border-radius: 10px;
 }
-.box-car {
+.car {
   display: flex;
-  align-items: center;
-  margin-left: 130px;
+  flex-direction: row;
+  width: 310px;
+  height: 58px;
+  left: 351px;
+  top: 354px;
+
+  font-family: Gilroy-Light;
+  font-size: 48px;
+  line-height: 56px;
+
+  color: #000000;
+}
+.koroche {
+  /* display: flex;
+  flex-direction: column; */
+  /* align-items: flex-start; */
+  /* margin-left: 130px;
+  border: 1px solid red; */
 }
 .older {
   display: flex;
   padding-top: 70px;
-  align-items: flex-start ;
+  align-items: flex-start;
   /* justify-content: flex-start; */
 }
 .car {
@@ -75,13 +91,11 @@ transition:all 0.2s linear;
   display: flex;
   color: #000000;
 }
-.car2 {
-  font-family: Gilroy-Medium;
+ .car2 {
+  font-family: Gilroy-Medium; 
   font-size: 16px;
   line-height: 19px;
-  /* identical to box height */
-
-  color: #000000;
+  /* identical to box height  */
 }
 .pulsCard {
   display: flex;
@@ -119,7 +133,7 @@ transition:all 0.2s linear;
 
   color: #9ba6b2;
 }
-.round1{
+.round1 {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -128,7 +142,7 @@ transition:all 0.2s linear;
   width: 45px;
   height: 45px;
 }
-.round{
+.round {
   background: rgba(150, 137, 137, 0.3);
   border-radius: 50px;
   width: 45px;
@@ -137,19 +151,23 @@ transition:all 0.2s linear;
   align-items: center;
   justify-content: center;
 }
-.bir{
+.bir {
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-top: 20px  ;
+  margin-top: 20px;
 }
-.league{
+.league {
   display: flex;
-  flex-direction: row;  
+  flex-direction: row;
 }
-.sana{
+.sana {
   margin-left: 20px;
 }
-.box-menu{
+.box-menu {
   margin-left: 70px;
+}
+.car {
+  display: flex;
+  flex-direction: column;
 }

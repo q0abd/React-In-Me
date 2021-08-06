@@ -46,14 +46,15 @@ class Body extends React.Component {
           </div>
         </div>
         <div className="older">
-          <div className="box-car">
+          <div className="koroche">
             <h1 className="car">
               Infinity Renault<h1 className="car2">TM</h1>
             </h1>
-            <div className="cardPuls">
-              <div className="pulsCard">{bbc}</div>
-              <div className="pulsCard">{aac}</div>
-            </div>
+            <img className="carimg" src={Car} alt="rasm" />
+          </div>
+          <div className="cardPuls">
+            <div className="pulsCard">{bbc}</div>
+            <div className="pulsCard">{aac}</div>
           </div>
           <div className="box-menu">
             <div className="league">
@@ -90,9 +91,6 @@ class Body extends React.Component {
               </div>
             </div>
           </div>
-        </div>
-        <div className="carReno">
-          <img className="reno" scr={Car} alt="car"></img>
         </div>
       </div>
     );

@@ -35,7 +35,7 @@ h1 {
   margin-left: 40px;
   margin-bottom: 18px;
 }
-.menu-word:hover{
+.menu-word:hover {
   text-decoration: underline;
   cursor: pointer;
 }
@@ -50,7 +50,7 @@ h1 {
   margin-left: 40px;
   color: #3629b7;
 }
-.races:hover{
+.races:hover {
   text-decoration: underline;
   cursor: pointer;
 }
@@ -71,47 +71,70 @@ h1 {
   margin-top: 25px;
   padding-left: 40px;
 }
-.wery{
+.wery {
   transition: all 0.3s linear;
 }
-.wery:hover{
-  background:rgb(37, 109, 177,0.5) ;
+.wery:hover {
+  background: rgb(37, 109, 177, 0.5);
   padding-top: 5px;
   padding-bottom: 5px;
   margin-top: 15px;
   cursor: pointer;
 }
-.wert{
+.wert {
   transition: all 0.3s linear;
 }
-.wert:hover{
-  background:rgba(177, 49, 49, 0.5) ;
+.wert:hover {
+  background: rgba(177, 49, 49, 0.5);
   padding-top: 5px;
   padding-bottom: 5px;
   margin-top: 15px;
   cursor: pointer;
 }
-.werf{
+.werf {
   transition: all 0.3s linear;
 }
-.werf:hover{
-  background:rgba(28, 196, 187, 0.5) ;
+.werf:hover {
+  background: rgba(28, 196, 187, 0.5);
   padding-top: 5px;
   padding-bottom: 5px;
   margin-top: 15px;
   cursor: pointer;
-  
 }
+
 .rasm1 {
   margin-right: 10px;
   width: 13px;
   height: 13px;
 }
-.for-img:hover{
+.for-img:hover {
   color: rgb(39, 180, 39);
   cursor: pointer;
   background: rgb(63, 49, 141);
   padding-left: 50px;
   border-radius: 10px;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
+.odamchalar {
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  background: rgb(61, 61, 179, 0.1);
+  border-radius: 5px;
+  padding: 10px;
+}
+.profName {
+  margin-left: 14px  ;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #591aed;
+}
+.bottomIcon{
+ margin-left: 60px;
+}
+
